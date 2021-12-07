@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(226, 63, 117);
+}
+.container{
+    min-width: 828px;
+    height: 100%;
+    background: radial-gradient(circle at 30% -5%, rgb(194, 162, 236) 0%, rgb(183, 151, 235) 16%, rgba(62,50,119,1) 31%, rgba(34,19,87,1) 42%, rgba(20,9,51,1) 100%);
+}
+.box{
+    padding: 25px;
+    height: 100%;
+    text-align: center;
+}
+.box2{
+    padding: 25px;
+    height: 600px;
+    text-align: center;
+}
+.header{
+    min-height: 90px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.box a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    line-height: 60px;
+    width: 235px;
+    transition: all 0.5s;
+}
+
+.box a:hover{
+    background-color: rgb(53, 2, 100);
+    color:rgb(252, 251, 255);
+    border: 3px solid rgb(226, 63, 117);
+}
+.box > ul{
+    display: flex;
+    position: relative;
+}
+.box ul li{
+    display: inline-block;
+    border: 2px solid white;
+}
+.borde{
+    border-radius: 20px 0 0 20px;
+}
+.borde_2{
+    border: 2px solid white;
+    border-radius: 0 20px 20px 0;
+}
+.box ul ul{
+    display: none;
+    position: absolute;
+}
+.box ul li:hover > ul{
+    display: block;
+}
+.box ul ul li{
+    display: block;
+    position: relative;
+    right: 32px;
+}
+.sqs{
+    width: 100%;
+    margin-top: 20px;
+}
+.store{
+    width: 300px;
+    margin-left: 300px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+.sqm{
+    position: relative;
+    width: 40%;
+    z-index: 2;
+    bottom: 300px;
+}
+.sqmk{
+    position: relative;
+    width: 60%;
+    height: 80px;
+    background-color:rgb(226, 63, 117);
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+}
+.sqkr{
+    position: relative;
+    width: 60%;
+    z-index: 0;
+    transform: rotate(90deg);
+    bottom: 200px;
+}
+
+
+.mask{
+    position: relative;
+    width: 100px;
+    bottom: 450px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.mask2{
+    position: relative;
+    width: 100px;
+    bottom: 450px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.sqb{
+    position: relative;
+    width: 40%;
+    z-index: 2;
+    bottom: 300px;
+    right: 70px;
+    bottom: 280px;
+}
+.sqbk{
+    position: relative;
+    width: 60%;
+    height: 80px;
+    background-color:rgb(218, 230, 54);
+    left: 50px;
+    top: -80px;
+    z-index: 1;
+}
+.sqbr{
+    position: relative;
+    width: 40%;
+    z-index: 0;
+    transform: rotate(90deg);
+    bottom: 300px;
+    left: 110px;
+}
+.boss{
+    position: relative;
+    width: 100px;
+    bottom: 450px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.boss2{
+    position: relative;
+    width: 100px;
+    bottom: 450px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.sqo{
+    position: relative;
+    width: 40%;
+    z-index: 2;
+    bottom: 300px;
+    right: 90px;
+    top: 95px;
+}
+.sqok{
+    position: relative;
+    width: 30%;
+    height: 170px;
+    background-color:rgb(230, 60, 54);
+    left: 50px;
+    top: 240px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.sqor{
+    position: relative;
+    width: 40%;
+    z-index: 0;
+    transform: rotate(90deg);
+    top: 30px;
+    left: 80px;
+    transform: rotate(360deg);
+}
+.ooo{
+    position: relative;
+    width: 100px;
+    top: -150px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.ooo2{
+    position: relative;
+    width: 100px;
+    top: -150px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.textsh{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    border-bottom: 2px solid rgb(226, 63, 117);
+}
+.knopka{
+    margin: 60px auto;
+    width: 200px;
+    height: 30px;
+}
+.knopka a{
+    padding: 15px 50px;
+    border: 3px outset rgb(235, 37, 103);
+    background: linear-gradient(150deg, rgb(247, 115, 189) 0%, rgb(247, 5, 126) 100%);
+    color: white;
+    font: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: all.8s;
+}
+.knopka a:hover{
+    background: rgb(255, 121, 177);
+    color: rgb(136, 0, 63);
+}
+.kube{
+    margin: auto;
+    border: 3px inset rgb(6, 79, 189);
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(43deg, rgba(49,47,153,1) 0%, rgba(40,45,158,1) 23%, rgba(8,18,62,1) 100%);
+}
+.glavn{
+    margin: 50px auto;
+    width: 50px;
+    height: 50px;
+    border: 3px outset rgb(235, 37, 103);
+    background: linear-gradient(150deg, rgb(247, 115, 189) 0%, rgb(247, 5, 126) 100%);
+    transition: all .8s;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+}
+.glavn i{
+    margin: auto;
+    font-size: 20px;
+    color: white;
+}
+.glavn:hover{
+    background: rgb(255, 121, 177);
+    color: rgb(136, 0, 63);
+}
+.info h4{
+    margin-top: -20px;
+    color: rgb(226, 63, 117);
+    font-size: 20px;
+}
+.info h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.col-12 h1{
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 55px;
+}
+.roz{
+    position: relative;
+    z-index: 1;
+    width: 480px;
+    height: 20px;
+    border-bottom: 10px solid rgb(233, 39, 146);
+    bottom: 55px;
+    left: 45px;
+}
+.tovar{
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid rgb(71, 0, 67);
+    background: linear-gradient(0deg, rgba(10,6,46,1) 0%, rgba(32,9,57,1) 33%, rgba(58,13,70,1) 58%, rgba(94,18,89,1) 81%, rgba(147,26,117,1) 100%);
+}
+.sale{
+    width: 50px;
+    height: 25px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.img{
+    width: 100%;
+    height: 160px;
+    margin: auto;
+}
+.cool{
+    width: 90%;
+    margin-top: -25px;
+}
+.mask_prost{
+    width: 50%;
+    margin-top: 10px;
+}
+.chel{
+    width: 80%;
+    margin-top: -15px;
+}
+.figura{
+    width: 80%;
+    margin-top: -10px;
+}
+.text_pok{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 1px solid rgb(177, 162, 162);
+}
+.cina{
+    width: 50%;
+    height: 50px;
+    
+}
+.cina h4{
+    color: white;
+    margin-top: 17px;
+    font-size: 15px;
+}
+.shop_now{
+    width: 50%;
+    height: 50px;
+    margin-left: 50%;
+    margin-top: -50px;
+}
+.shop_now h4{
+    margin-top: -5px;
+    color: rgb(233, 39, 146);
+    font-size: 15px;
+}
+.fon{
+    width: 100%;
+    display: flex;
+    border-radius: 30px;
+    height: 400px;
+    background: linear-gradient(150deg, rgba(167,254,252,1) 0%, rgba(100,129,149,1) 29%, rgba(77,0,92,1) 100%);
+}
+fieldset h1{
+    width: 400px;
+}
+input{
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 350px;
+    height: 50px;
+    border: 3px outset rgb(235, 37, 103);
+}
+input::placeholder{
+    text-align: center;
+    font-size: 25px;
+}
+button{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    right: -250px;
+    bottom: 50px;
+    border: 3px outset rgb(235, 37, 103);
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(150deg, rgb(247, 115, 189) 0%, rgb(247, 5, 126) 100%);
+}
+.fon .img{
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+img{
+    width: 100%;
+
+}
+.sqgl{
+    margin-top: -100px;
+    margin-left: 200px;
+    width: 300px;
+}
+
+.knopka_contact{
+    margin: auto;
+    width: 200px;
+    height: 80px;
+}
+.knopka_contact a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 3px outset rgb(235, 37, 103);
+    transition: all .8s;
+    background: linear-gradient(150deg, rgb(247, 115, 189) 0%, rgb(247, 5, 126) 100%);
+}
+.knopka_contact a:hover{
+    background: rgb(252, 118, 207);
+}
+@media screen and (max-width:1400px) {
+    .box a{
+        width: 200px;
+    }
+    .sqgl{
+        margin-left: 100px;
+    }
+    .sqb{
+        left: -50px;
+    }
+    .sqo{
+        left: -70px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .box a{
+        width: 160px;
+    }
+    .sqgl{
+        margin-top: -50px;
+        margin-left: 10px;
+    }
+    .sqb{
+        top: -200px;
+        left: -20px;
+    }
+    .sqo{
+        left: -70px;
+    }
+    .sqbr{
+        margin-top: 50px;
+    }
+    .sqkr{
+        left: 50px;
+        margin-top: 50px;
+    }
+    .sqm{
+        left:  15px;
+        top: -250px;
+    }
+    .store{
+        margin-left: 190px;
+    }
+    .mask{
+        margin-top: 50px;
+    }
+    .ooo{
+        top: -110px;
+    }
+    .ooo2{
+        top: -100px;
+    }
+    .sqo{
+        left: -40px;
+    }
+    .fon .img{
+        margin-left: 10px;
+        margin-top: 50px;
+        
+    }
+    .kube{
+        width: 250px;
+        height: 250px;
+    }
+    .info h3{
+        font-size: 15px;
+    }
+    .boss{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width:992px) {
+    .box a{
+        width: 109px;
+    }
+    .sqmk{
+        width: 200px;
+    }
+    .sqkr{
+        width: 150px;
+        left: -70px;
+        top: -250px;
+    }
+    .sqm{
+        width: 100px;
+        left: -250px;
+        top: -180px;
+    }
+    .sqbk{
+        width: 200px;
+        left: 400px;
+        top: -160px;
+    }
+    .sqbr{
+        width: 100px;
+        top: -400px;
+        left: 350px;
+    }
+    .sqb{
+        width: 100px;
+        top: -350px;
+        left: 140px;
+    }
+    .boss{
+        left: 400px;
+        top: -600px;
+    }
+    .boss2{
+        left: 400px;
+        top: -590px;
+
+    }
+    .sqo{
+        width: 120px;
+        left: -300px;
+        top: 30px;
+    }
+    .sqor{
+        width: 200px;
+        left: 30px;
+        top: -20px;
+    }
+    .ooo{
+        top: -300px;
+    }
+    .ooo2{
+        top: -250px;
+    }
+    .text_pok{
+
+        margin-top: 60px;
+    }
+    .tovar{
+        height: 350px;
+    }
+    .mask_prost{
+        width: 20%;
+    }
+    .cool{
+        width: 30%;
+    }
+    .chel{
+        width: 30%;        
+    }
+    .figura{
+        width: 30%;
+    }
+}
